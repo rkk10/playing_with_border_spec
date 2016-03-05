@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Borders</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        div{
+            height: 150px;
+            width: 150px;
+            margin: 10px;
+            float: left;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .first {
+    border: 2px solid black;
+}
+        .second {
+    border: 2px black;
+    border-style: dashed;
+}
+        .third {
+    border-style: dotted;
+}
+        .fourth {
+    border: 10px double;
+}
+        .fifth {
+    border: 10px groove;
+}
+        .six {
+    border: 10px inset;
+}
+        .seven {
+    border: 10px outset;
+}
+        .eight {
+    border: 15px ridge;
+}
+        .nine {
+    border: 10px solid;
+}
+        .type {
+    border: 6px solid gray;
+    border-top-style: dashed;
+    border-right-style: dotted;
+    border-bottom-style: double;
+    border-left-style: groove;
+}
+        .head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.head {
+    height: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <header class="head">
+        <h2>Different types of borders in CSS3</h2>
+    </header>
+    <div class="first">solid</div>
+    <div class="second">Dashed</div>
+    <div class="third">Dotted</div>
+    <div class="fourth">Double</div>
+    <div class="fifth">Groove</div>
+    <div class="six">Inset</div>
+    <div class="seven">Outset</div>
+    <div class="eight">ridge</div>
+    <div class="nine">solid</div>
+    <div class="type">Mixed</div>
+</body>
+</html>
