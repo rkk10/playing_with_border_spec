@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>border groove</title>
+    <title>border ridge</title>
     <style>
         *{
             margin: 0;
@@ -12,7 +12,7 @@
         header{
                 height: 10vh;
     width: 100vw;
-    background-color: rgb(214, 153, 255);
+    background-color: rgb(49, 49, 49);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,7 +32,7 @@
         div {
     height: 160px;
     width: 500px;
-    border: 20px groove rgba(104, 82, 107, 0.65);
+    border: 20px ridge rgba(62, 53, 64, 0.65);
     margin: 80px;
     padding: 10px;
     color: rgba(74, 95, 177, 0.7);
@@ -41,39 +41,33 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    float: left;
 }
-        .one{
-            float: left;
-        }
         .two{
             border-left: none;
             border-right: none;
-            float: right;
         }
         .three {
     border-top: none;
     border-bottom: none;
-    float: left;
 }
         .four {
     float: right;
     border-top: none;
 }
         .five {
-    float: left;
     border-left: none;
     border-top: none;
     border-right: none;
 }
         .six {
-    float: right;
     border-bottom: none;
 }
     </style>
 </head>
 <body>
     <header>
-        <h1>Border-groove</h1>
+        <h1>Border-ridge</h1>
     </header>
     <section>
         <div class="one">One</div>
