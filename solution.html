@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .center{
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        section{
+            width: 100vw;
+            height: 100vh;
+        }
+        div{
+            width: 500px;
+            height: 350px;
+            background-color: cornflowerblue;
+        }
+        .first {
+    background-image: linear-gradient(white, white),linear-gradient(white, white),linear-gradient(white, white),linear-gradient(white, white);
+    background-size: 50px 38px;
+    background-repeat: no-repeat;
+    background-color: rgb(95, 158, 160);
+    background-position: top left, top right, right bottom, left bottom;
+}
+        .second {
+    background: linear-gradient(black 10% , transparent 0 ) top left,linear-gradient(black 10% , transparent 0 ) top right, linear-gradient(90deg, black 10%, transparent 0) top left,linear-gradient(-90deg, black 10% , transparent 0) top right,linear-gradient(90deg, black 10%, transparent 0) bottom left,linear-gradient(-90deg, black 10%, transparent 0)bottom right,linear-gradient(0, black 10%, transparent 0)bottom left,linear-gradient(0, black 10%, transparent 0)bottom right, white;
+    background-size: 50px 38px;
+    background-repeat: no-repeat;
+}
+        .third {
+    background: radial-gradient(circle at left top, white 50%, transparent 0) left top, radial-gradient(circle at top right, white 50%, transparent 0) top right,radial-gradient(circle at right bottom, white 50%, transparent 0)bottom right,radial-gradient(circle at left bottom, white 50%, transparent 0)left bottom;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+    </style>
+</head>
+<body>
+    <section class="center">
+        <div class="first"></div>
+    </section >
+    <section class="center">
+        <div class="second"></div>
+    </section>
+    <section class="center">
+        <div class="third"></div>
+    </section>
+</body>
+</html>
